@@ -1,0 +1,31 @@
+[package]
+name = "meowcat"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "mycat1"
+path = "src/mycat1.rs"
+
+[[bin]]
+name = "mycat2"
+path = "src/mycat2.rs"
+
+[[bin]]
+name = "mycat3"
+path = "src/mycat3.rs"
+
+[[bin]]
+name = "mycat4"
+path = "src/mycat4.rs"
+
+[[bin]]
+name = "mycat5"
+path = "src/mycat5.rs"
+
+[[bin]]
+name = "mycat6"
+path = "src/mycat6.rs"
+
+[dependencies]
+libc = "0.2"
